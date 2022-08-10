@@ -8,5 +8,5 @@ Exploring film data from one of the largest movie databases, imdb.com, creating 
 
 ## Linear Regression using Marketing Data
 Creating an interactive plot by building a shiny app, displaying linear regression models between 3 media advertising media's budget and sales
-- Code: ui.R & server.R
+- Code: [ui.R](https://github.com/jriggs3420/RProjects/blob/main/ui.R) & [server.R](https://github.com/jriggs3420/RProjects/blob/main/server.R)
 - Output: [Shiny App](https://jriggs3420.shinyapps.io/r_projects/)
