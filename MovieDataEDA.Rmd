@@ -2,10 +2,10 @@
 title: "Exporing Data in the The Internet Movie Database"
 author: "Jasmine Riggs"
 date: "3/15/2020"
-output: pdf_document
+output: html_document
 ---
 ## Introduction
-In this project, I really dive into the `movies` dataset from the `ggplot2movies` package. The data is from the internet movie database, [linked phrase](http://imdb.com). It's one of the largest movie databases today and is a collection of movie data supplied by studios and fans. There are 58,788 rows and 24 variables in this dataset.
+In this project, I really dive into the `movies` dataset from the `ggplot2movies` package. The data is from the internet movie database, [imdb.com](http://imdb.com). It's one of the largest movie databases today and is a collection of movie data supplied by studios and fans. There are 58,788 rows and 24 variables in this dataset.
 ```{r, echo=FALSE}
 library(ggplot2movies)
 data(movies)
@@ -49,9 +49,6 @@ moviesShort[head(order(moviesShort$length),1),c("title","length")]
 
 #number of short films w/ length of 1 minute
 sum(moviesShort$length==1)
-
-#vector of short films w/ length of 1 minute
-moviesShort[moviesShort$length==1,"title"]
 
 #longest short film
 moviesShort[head(order(moviesShort$length,decreasing = T),1),c("title","length")]
