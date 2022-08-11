@@ -3,7 +3,7 @@ This repo contains all of the projects I've done using RStudio.
 
 ## Exporing Data in the Internet Movie Database
 Exploring film data from one of the largest movie databases, imdb.com, creating visualizations from R base graphs to ggplot2 graphs
-- Code: [MovieDataEDA.Rmd](https://github.com/jriggs3420/RProjects/blob/main/MovieDataEDA/MovieDataEDA.Rmd))
+- Code: [MovieDataEDA.Rmd](https://github.com/jriggs3420/RProjects/blob/main/MovieDataEDA/MovieDataEDA.Rmd)
 - Output: [MovieDataEDA.pdf](https://github.com/jriggs3420/RProjects/blob/main/MovieDataEDA/MovieDataEDA.pdf)
 
 ## Linear Regression using Marketing Data
