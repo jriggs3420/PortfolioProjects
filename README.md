@@ -13,5 +13,5 @@ Create an interactive plot by building a shiny app, displaying linear regression
 
 ## Build Multiple Linear Regression Model Using Stepwise Method
 Build multiple linear regression models using the stepwise method using regsubets(). I use the forward, backward, and exhaustive methods to create a predictor model to optimize key statitics such as Adjusted R^2 and Mallow's CP. These models could potentially predict the interest rate for a consumer loan made by Lending Club.
-- Data: (Lending Club Data)[https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/loansData.csv]
-- Code: (LoansDataProject)[https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/LoansDataProject.R]
+- Data: [Lending Club Data](https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/loansData.csv)
+- Code: [LoansDataProject](https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/LoansDataProject.R)
