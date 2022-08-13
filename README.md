@@ -4,7 +4,7 @@ This repo contains all of the projects I've done in RStudio.
 ## Exploring Data in the Internet Movie Database
 Explore film data from one of the largest movie databases, imdb.com, creating visualizations from R base graphs to ggplot2 graphs
 - Code: [MovieDataEDA.Rmd](https://github.com/jriggs3420/RProjects/blob/main/MovieDataEDA/MovieDataEDA.Rmd)
-- Output: [MovieDataEDA.pdf](https://github.com/jriggs3420/RProjects/blob/main/MovieDataEDA/MovieDataEDA.pdf)
+- Output: [MovieDataEDA.html](https://rawcdn.githack.com/jriggs3420/RProjects/f924f20224c55caa794dbf65562310f969fa4ee2/MovieDataEDA/MovieDataEDA.html)
 
 ## Create Shiny App Visualizing Marketing Data
 Create an interactive plot by building a shiny app, displaying linear regression models between 3 media advertising media's budget and sales
@@ -19,4 +19,4 @@ Build multiple linear regression models using the stepwise method using regsubet
 ## Apply 5 Machine Learning Algorithms to Determine Credit-Worthinness
 Utilize machine learning packages within R to predict a binary response, credit- worthy or not? In this project, the methods used are logistic regression with and without LASSO, decision tree with pruning, bagging, and random forest.
 - Code: [MLA_CreditData.Rmd](https://github.com/jriggs3420/RProjects/blob/main/MLA_CreditData/MLA_CreditData.Rmd)
-- Output: [MLA_CreditData.nb.html](https://github.com/jriggs3420/RProjects/blob/main/MLA_CreditData/MLA_CreditData.nb.html)
+- Output: [MLA_CreditData.html](https://rawcdn.githack.com/jriggs3420/RProjects/f924f20224c55caa794dbf65562310f969fa4ee2/MLA_CreditData/MLA_CreditData.html)
