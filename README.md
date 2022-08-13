@@ -15,3 +15,8 @@ Create an interactive plot by building a shiny app, displaying linear regression
 Build multiple linear regression models using the stepwise method using regsubets(). I use the forward, backward, and exhaustive methods to create a predictor model to optimize key statitics such as adjusted R-Sqaured and cross validated prediction error. These models could potentially predict the interest rate for a consumer loan made by Lending Club.
 - Data: [LoansData.csv](https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/loansData.csv)
 - Code: [LoansDataProject.R](https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/LoansDataProject.R)
+
+## Apply 5 Machine Learning Algorithms to Determine Credit-Worthinness
+Utilize machine learning packages within R to predict a binary response, credit- worthy or not? In this project, the methods used are logistic regression with and without LASSO, decision tree with pruning, bagging, and random forest.
+- Code: [MLA_CreditData.Rmd](https://github.com/jriggs3420/RProjects/blob/main/MLA_CreditData/MLA_CreditData.Rmd)
+- Output: [MLA_CreditData.nb.html](https://github.com/jriggs3420/RProjects/blob/main/MLA_CreditData/MLA_CreditData.nb.html)
