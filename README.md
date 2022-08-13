@@ -1,5 +1,5 @@
 # R Projects
-This repo contains all of the projects I've done using RStudio.
+This repo contains all of the projects I've done in RStudio.
 
 ## Exploring Data in the Internet Movie Database
 Explore film data from one of the largest movie databases, imdb.com, creating visualizations from R base graphs to ggplot2 graphs
