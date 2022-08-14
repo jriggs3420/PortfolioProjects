@@ -16,7 +16,7 @@ Build multiple linear regression models using the stepwise method using regsubet
 - Data: [LoansData.csv](https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/loansData.csv)
 - Code: [LoansDataProject.R](https://github.com/jriggs3420/RProjects/blob/main/LoansData_StepwiseRegression/LoansDataProject.R)
 
-## Apply 5 Machine Learning Algorithms to Determine Credit-Worthinness
+## Apply Machine Learning Algorithms to Determine Credit-Worthinness
 Utilize machine learning packages within R to predict a binary response, credit- worthy or not? In this project, the methods used are logistic regression with and without LASSO, decision tree with pruning, bagging, and random forest.
 - Code: [MLA_CreditData.Rmd](https://github.com/jriggs3420/RProjects/blob/main/MLA_CreditData/MLA_CreditData.Rmd)
 - Output: [MLA_CreditData.html](https://rawcdn.githack.com/jriggs3420/RProjects/4e83e004b875d9e1ae173a154674060901bece6b/MLA_CreditData/MLA_CreditData.html)
