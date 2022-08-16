@@ -16,6 +16,7 @@ sum(is.na(loandata)) # number of blank values in the data
 
 loandata <- na.omit(loandata) # remove NA's
 unique(loandata$FICO.Range) # look at distinct FICO ranges and how many
+loandata$FICO.Range <- as.factor(loandata$FICO.Range) # change FICO ranges to factors
 loandata$FICO.Range <- as.numeric(loandata$FICO.Range) # change FICO ranges to numeric rankings
 attach(loandata) # access variables without calling data frame
 
@@ -47,7 +48,7 @@ max_adjrsq = which.max(regfwd.sum$adjr2)   # Finds num. of variables that maximi
 max_adjrsq # num. of variables that maximizes adj R^2
 regfwd.sum$adjr2[max_adjrsq] # associated adj R^2
 points(max_adjrsq,regfwd.sum$adjr2[max_adjrsq],col="red",cex=2,pch=20) # Add the maximum adj R^2 point to the plot
-index1 <- regfwd.sum$which[max_rsq,][-1] # label the predictors in the model with max adj resq
+index1 <- regfwd.sum$which[max_adjrsq,][-1] # label the predictors in the model with max adj resq
 index1
 Xrsq <- X[,index1] # select the columns in X according to index
 summary(lm(Interest.Rate ~ FICO.Range + Xrsq, data=loandata)) # summary of forward model which maximizes adj R^2
